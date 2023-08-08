@@ -225,12 +225,11 @@ header {
 
 #txtBusca {
     font-size: 18px;
-    width: 60vw;
-    height: 5vh;
-    flex-shrink: 0;
-    padding-left: 1%;
+    width: 40vw;
+    height: 6vh;
     border-radius: 11px;
     background: #FFF;
+    padding: 0 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 
@@ -241,8 +240,8 @@ header {
 }
 
 .btnPesquisa {
-    width: 20vw;
-    height: 5vh;
+    width: 15vw;
+    height: 6vh;
     flex-shrink: 0;
     border-radius: 11px;
     background: #FFE600;
@@ -258,44 +257,67 @@ header {
     /* 32.525px */
 }
 
-.areasTrabalho{
+.btnPesquisa:hover{
+    cursor: pointer;
+    background-color: #333;
+    color: #FFE600;
+}
+
+.areasTrabalho {
     color: white;
     text-align: center;
     padding-top: 10%;
     padding-bottom: 10%;
 }
 
-.vagas{
-    background-color: #FFE600;
-    border: solid 1px;
-    border-radius: 15px;
-    padding: 5%;
-    width: 20%;
-    margin: 5%;
+.block-vagas {
+    /* background-color: aqua; */
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vagas {
+    height: 200px;
+    width: 300px;
+    border-radius: 33px;
+    margin: 50px;
+    background: #FFE600;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+
+.vagas:hover{
     cursor: pointer;
+    background: #fff;
 }
 
-.vagas img{
-    width: 50%;
+.vagas img {
+    width: 30%;
     height: 50%;
-    margin-left: 30%;
-    margin-right: 40%;
+    margin: 20px auto;
 }
 
-.vagas a{
+.vagas p {
     font-size: 150%;
+    color: #333;
 }
 
-.todasVagas{
-    background-color: #FFE600;
-    border: solid 1px;
-    border-radius: 15px;
-    margin-top: 20%;
-    padding: 2%;
+.todasVagas {
+    width: 246px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #FFE600;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
 }
 
-.todasVagas a{
-    font-size: 200%;
+.todasVagas:hover{
+    cursor: pointer;
+    background-color: #FFF;
 }
 
 
@@ -326,23 +348,46 @@ header {
         margin: -50px auto;
     }
 
-    .busca{
+    .busca {
         display: block;
         width: 80%;
         margin: 10px auto;
+        /* background-color: aqua; */
     }
 
-    .divBusca{
+    .divBusca {
         padding: 20px
     }
 
-    .titulo-busca{
+    .titulo-busca {
         margin: 20px auto;
     }
 
-    .btnPesquisa{
+    #txtBusca {
+        width: 90%;
+        height: 3vh;
+
+    }
+
+    .btnPesquisa {
         margin: 20px;
         font-size: small;
+        width: 50%;
+    }
+
+    .block-vagas{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        /* width: 50%; */
+    }
+
+    .vagas{
+        width: 50%;
+        height: 40%;
+        margin: 20px auto;
+        font-size: smaller;
+        padding: 10px;
     }
 
 
