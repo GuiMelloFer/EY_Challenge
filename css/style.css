@@ -177,35 +177,126 @@ header {
     font-family: 'Hammersmith One', sans-serif;
 }
 
-.login-button:hover{
+.login-button:hover {
     cursor: pointer;
     background-color: #fff;
 }
 
-.block-imagem{
+.block-imagem {
     height: fit-content;
     width: fit-content;
 }
 
-.imagem-banner{
+.imagem-banner {
     width: 100%;
 }
 
-.block-titulo{
+.block-titulo {
     width: 100%;
     height: 30vh;
     position: relative;
     display: flex;
 }
 
-.titulo{
+.titulo {
     margin: auto;
     color: #fff;
+    text-align: center;
 }
 
+.divBusca {
+    padding: 50px;
+    text-align: center;
+    background-color: #D9D9D9;
+    display: block;
+}
+
+.busca {
+    display: inline;
+    margin: 100px auto;
+    /* background-color: aqua; */
+
+}
+
+.titulo-busca {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#txtBusca {
+    font-size: 18px;
+    width: 60vw;
+    height: 5vh;
+    flex-shrink: 0;
+    padding-left: 1%;
+    border-radius: 11px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 
+}
 
+.lupa {
+    width: 1%;
+}
+
+.btnPesquisa {
+    width: 20vw;
+    height: 5vh;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #FFE600;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #000;
+    text-align: center;
+    font-family: Hammersmith One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.523%;
+    /* 32.525px */
+}
+
+.areasTrabalho{
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.vagas{
+    background-color: #FFE600;
+    border: solid 1px;
+    border-radius: 15px;
+    padding: 5%;
+    width: 20%;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.vagas img{
+    width: 50%;
+    height: 50%;
+    margin-left: 30%;
+    margin-right: 40%;
+}
+
+.vagas a{
+    font-size: 150%;
+}
+
+.todasVagas{
+    background-color: #FFE600;
+    border: solid 1px;
+    border-radius: 15px;
+    margin-top: 20%;
+    padding: 2%;
+}
+
+.todasVagas a{
+    font-size: 200%;
+}
 
 
 
@@ -216,7 +307,7 @@ header {
 
 
 @media only screen and (max-width: 600px) {
-    .block-header{
+    .block-header {
         display: block;
     }
 
@@ -225,4 +316,34 @@ header {
         background-color: #333;
         font-size: smaller;
     }
+
+    .logo {
+        margin-left: -20px;
+    }
+
+    .block-titulo {
+        width: 80vw;
+        margin: -50px auto;
+    }
+
+    .busca{
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .divBusca{
+        padding: 20px
+    }
+
+    .titulo-busca{
+        margin: 20px auto;
+    }
+
+    .btnPesquisa{
+        margin: 20px;
+        font-size: small;
+    }
+
+
 }
