@@ -29,6 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #333;
 }
 
 .logo {
@@ -49,6 +50,7 @@ header {
     align-items: center;
     float: right;
     margin: 0 20px;
+    cursor: pointer;
 }
 
 #menu {
@@ -301,18 +303,17 @@ header {
 }
 
 .vagas p {
-    font-size: 150%;
+    font-size: 120%;
     color: #333;
 }
 
 .todasVagas {
     width: 246px;
     height: 57px;
-    flex-shrink: 0;
     border-radius: 11px;
     background: #FFE600;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-size: 24px;
+    font-size: 140%;
 }
 
 .todasVagas:hover{
@@ -320,6 +321,33 @@ header {
     background-color: #FFF;
 }
 
+footer {
+    background: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    width: 45%;
+    height: 100%;
+    margin: auto 15px;
+    /* background-color: #FFE600; */
+}
+
+.logo-footer img{
+    margin: 2%;
+}
+
+.social-media{
+    display: flex;
+    width: 10%;
+    /*height: 100%; */
+    margin: auto 15px;
+    justify-content: space-between;
+    cursor: pointer;
+}
 
 
 
@@ -386,8 +414,16 @@ header {
         width: 50%;
         height: 40%;
         margin: 20px auto;
-        font-size: smaller;
+        font-size: 100%;
         padding: 10px;
+    }
+
+    .social-media{
+        display: flex;
+        width: 30%;
+        /*height: 100%; */
+        margin: auto 15px;
+        justify-content: space-between;
     }
 
 
