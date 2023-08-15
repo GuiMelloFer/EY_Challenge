@@ -5,7 +5,9 @@ function menuOnClick() {
   }
 
   const altoContraste = document.querySelector('#alto-contraste')
+  const fonte = document.querySelector('#fonte')
   let darkMode = true
+  let fontSize = "normal"
 
   altoContraste.addEventListener("click", () => {
     if(darkMode === true){
@@ -15,6 +17,16 @@ function menuOnClick() {
     }
 
     alteraCorDeFundo(darkMode)
+  })
+
+  fonte.addEventListener("click", () => {
+    if(fontSize === "normal"){
+      fontSize = "grande"
+    }else{
+      fontSize = "normal"
+    }
+
+    alteraFonte(fontSize)
   })
 
   function alteraCorDeFundo(darkMode){
@@ -32,3 +44,31 @@ function menuOnClick() {
       texto2.style.color = "#333"
     }
   }
+
+  function alteraFonte(fontSize){
+    const body = document.querySelector('body')
+    const botao = document.querySelector('.todasVagas')
+    var largura = window. screen.width;
+    console.log(largura);
+    if( largura >= 600){
+       if (fontSize === "grande") {
+      console.log(fontSize);
+      body.style.fontSize = "25px"
+      botao.style.height = "80px"
+    } else {
+      console.log(fontSize);
+      body.style.fontSize = "20px"
+      botao.style.height = "57px"
+    }
+    }else{
+      if (fontSize === "grande") {
+        console.log(fontSize);
+        body.style.fontSize = "18px"
+      } else {
+        console.log(fontSize);
+        body.style.fontSize = "smaller"
+    }
+   
+
+  }
+}
