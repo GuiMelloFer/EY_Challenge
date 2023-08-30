@@ -168,6 +168,9 @@ header {
     color: #3B95D3;
     cursor: pointer;
 }
+.login{
+    background-color: aqua;
+}
 
 .login-button {
     border-radius: 0.6875rem;
@@ -363,13 +366,14 @@ footer {
 .divLogin {
     display: block;
     width: 456px;
-    height: 480px;
+    height: 520px;
     margin: 100px auto;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     align-items: center;
     justify-content: space-between;
+    padding-top: 30px;
 }
 
 .logo-login {
@@ -381,7 +385,7 @@ footer {
 }
 
 .inputs-login {
-    height: 50%;
+    height: fit-content;
     width: 318px;
     /* background-color: aqua; */
     display: block;
@@ -396,20 +400,28 @@ footer {
 
 .divLogin input {}
 
-.divLogin button {
+/* .divLogin button {
     background-color: #3B95D3;
     width: 215px;
     height: 52px;
     flex-shrink: 0;
     border-radius: 11px;
     font-size: large;
-}
+} */
 
 .botao-login{
     /* background-color: aqua; */
-    margin-top: -40px;
     margin: auto;
     width: 47%;
+}
+
+.botao-confirmar{
+    background-color: #3B95D3;
+    width: 215px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    font-size: large;
 }
 
 #inputLogin {
@@ -423,8 +435,11 @@ footer {
     margin: 20px auto;
 }
 
-.divTextoLogin p {
-    font-size: medium;
+.divTextoLogin {
+    margin: 20px auto;
+    font-size: small;
+    width: fit-content;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 
