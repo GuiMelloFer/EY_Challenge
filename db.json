@@ -1,0 +1,164 @@
+{
+    "vagas": [
+        {
+            "id": 1,
+            "empresa": "Empresa A",
+            "titulo": "Desenvolvedor Front-end",
+            "cargo_de_atuacao": "Tecnologia da Informação",
+            "salario": 5000.00,
+            "descricao": "Procuramos um desenvolvedor experiente em React para trabalhar em projetos desafiadores."
+        },
+        {
+            "id": 2,
+            "empresa": "Empresa B",
+            "titulo": "Analista de Marketing",
+            "cargo_de_atuacao": "Marketing",
+            "salario": 3500.00,
+            "descricao": "Responsável por criar estratégias de marketing digital e analisar métricas de campanhas."
+        },
+        {
+            "id": 3,
+            "empresa": "HealthCare",
+            "titulo": "Enfermeiro(a) Registrado(a)",
+            "cargo_de_atuacao": "Saúde",
+            "salario": 5500.00,
+            "descricao": "Atendimento direto a pacientes, administração de medicamentos e cuidados de saúde."
+        },
+        {
+            "id": 4,
+            "empresa": "GreenTech",
+            "titulo": "Engenheiro Ambiental",
+            "cargo_de_atuacao": "Meio Ambiente",
+            "salario": 6000.00,
+            "descricao": "Desenvolvimento de soluções sustentáveis para problemas ambientais globais."
+        },
+        {
+            "id": 5,
+            "empresa": "FoodDelight",
+            "titulo": "Chef de Cozinha",
+            "cargo_de_atuacao": "Gastronomia",
+            "salario": 7000.00,
+            "descricao": "Criação de pratos exclusivos e gestão de equipes de cozinha."
+        },
+        {
+            "id": 6,
+            "empresa": "FinanceCorp",
+            "titulo": "Analista Financeiro",
+            "cargo_de_atuacao": "Finanças",
+            "salario": 6000.00,
+            "descricao": "Análise de dados financeiros, elaboração de relatórios e projeções para tomada de decisões."
+        },
+        {
+            "id": 7,
+            "empresa": "TravelAdventures",
+            "titulo": "Agente de Viagens",
+            "cargo_de_atuacao": "Turismo",
+            "salario": 4000.00,
+            "descricao": "Planejamento e organização de roteiros de viagens inesquecíveis para clientes."
+        },
+        {
+            "id": 8,
+            "empresa": "ArtisticExpressions",
+            "titulo": "Artista 3D",
+            "cargo_de_atuacao": "Artes Visuais",
+            "salario": 5500.00,
+            "descricao": "Criação de modelos 3D realistas para filmes, jogos e outras mídias artísticas."
+        },
+        {
+            "id": 9,
+            "empresa": "EducationInnovate",
+            "titulo": "Professor(a) de Matemática",
+            "cargo_de_atuacao": "Educação",
+            "salario": 4500.00,
+            "descricao": "Ministrar aulas de matemática, criar planos de ensino e auxiliar os alunos em seu aprendizado."
+        },
+        {
+            "id": 10,
+            "empresa": "EcoSolutions",
+            "titulo": "Especialista em Energias Renováveis",
+            "cargo_de_atuacao": "Energia",
+            "salario": 6500.00,
+            "descricao": "Desenvolvimento e implementação de projetos de geração de energia a partir de fontes renováveis."
+        },
+        {
+            "id": 11,
+            "empresa": "TechStartup",
+            "titulo": "Engenheiro de Dados",
+            "cargo_de_atuacao": "Tecnologia",
+            "salario": 7500.00,
+            "descricao": "Desenvolvimento de pipelines de dados e análise para suportar decisões baseadas em dados."
+        },
+        {
+            "id": 12,
+            "empresa": "FashionTech",
+            "titulo": "Especialista em E-Commerce de Moda",
+            "cargo_de_atuacao": "Moda",
+            "salario": 5000.00,
+            "descricao": "Gestão da plataforma de e-commerce, estratégias de vendas online e experiência do cliente."
+        },
+        {
+            "id": 13,
+            "empresa": "MedicalDevices",
+            "titulo": "Engenheiro de Desenvolvimento de Dispositivos Médicos",
+            "cargo_de_atuacao": "Saúde",
+            "salario": 7000.00,
+            "descricao": "Projeto e desenvolvimento de dispositivos médicos inovadores em conformidade com regulamentações."
+        },
+        {
+            "id": 14,
+            "empresa": "RenewableMaterials",
+            "titulo": "Pesquisador de Materiais Sustentáveis",
+            "cargo_de_atuacao": "Meio Ambiente",
+            "salario": 6000.00,
+            "descricao": "Pesquisa e desenvolvimento de materiais ecologicamente corretos e de baixo impacto."
+        },
+        {
+            "id": 15,
+            "empresa": "CulinaryDelights",
+            "titulo": "Padeiro/Padeira",
+            "cargo_de_atuacao": "Gastronomia",
+            "salario": 4000.00,
+            "descricao": "Preparo de pães, bolos e produtos de confeitaria em uma padaria renomada."
+        },
+        {
+            "id": 16,
+            "empresa": "FinancialConsult",
+            "titulo": "Consultor Financeiro",
+            "cargo_de_atuacao": "Finanças",
+            "salario": 6800.00,
+            "descricao": "Assessoria financeira personalizada para clientes, oferecendo orientação sobre investimentos e planejamento."
+        },
+        {
+            "id": 17,
+            "empresa": "AdventureTours",
+            "titulo": "Guia de Turismo",
+            "cargo_de_atuacao": "Turismo",
+            "salario": 3500.00,
+            "descricao": "Acompanhamento e narrativa de tours emocionantes para grupos de turistas."
+        },
+        {
+            "id": 18,
+            "empresa": "DigitalArtistry",
+            "titulo": "Ilustrador Digital",
+            "cargo_de_atuacao": "Artes Visuais",
+            "salario": 4800.00,
+            "descricao": "Criação de ilustrações digitais para publicidade, livros e mídias sociais."
+        },
+        {
+            "id": 19,
+            "empresa": "LanguageInstitute",
+            "titulo": "Instrutor de Idiomas",
+            "cargo_de_atuacao": "Educação",
+            "salario": 3800.00,
+            "descricao": "Ministrar aulas de idiomas estrangeiros, focando na comunicação e habilidades linguísticas."
+        },
+        {
+            "id": 20,
+            "empresa": "SolarPowerTech",
+            "titulo": "Engenheiro de Energia Solar",
+            "cargo_de_atuacao": "Energia",
+            "salario": 7000.00,
+            "descricao": "Projeto e instalação de sistemas de energia solar, otimizando a geração e utilização de energia limpa."
+        }
+    ]
+}
