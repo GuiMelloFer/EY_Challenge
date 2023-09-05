@@ -518,8 +518,9 @@ footer {
     border-radius: 11px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin: auto;
+    margin: 50px auto;
     padding: 20px;
+    display: flexbox;
 }
 
 .btnVaga {
@@ -531,7 +532,8 @@ footer {
     border-radius: 15px;
     color: #FFF;
     font-size: medium;
-    margin: auto;
+    margin: 10px auto;
+    
 }
 
 
@@ -550,7 +552,7 @@ footer {
     }
 
     .logo {
-        margin-left: -20px;
+        margin-left: -70px;
     }
 
     .block-titulo {
