@@ -25,18 +25,18 @@ export default function constroiCards(titulo, empresa, salario, local, descricao
     return vaga;
 }
 
-async function listaVideos() {
+async function listaVagas() {
     try {
         const listaAPI = await conectaAPI.listaVagas();
         listaAPI.forEach(elemento => lista.appendChild(
         constroiCards(elemento.titulo, elemento.empresa, elemento.salario, elemento.local, elemento.descricao)
         ))    
     } catch{
-        lista.innerHTML = `<h2 class="mensagem__titulo"> Não foi possível carregar a lista de vídeos</h2>`
+        lista.innerHTML = `<h2 class="mensagem__titulo"> Não foi possível carregar a lista de vagas </h2>`
     }
    
 
     
 }
 
-listaVideos();
+listaVagas();
