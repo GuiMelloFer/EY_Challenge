@@ -28,7 +28,7 @@ export default function constroiCards(titulo, empresa, salario, local, descricao
 
 async function listaVagas() {
     try {
-        const listaAPI = await conectaAPI.listaVagas();
+        const listaAPI = await conectaAPI.buscaVaga("Administração");
         listaAPI.forEach(elemento => lista.appendChild(
         constroiCards(elemento.titulo, elemento.empresa, elemento.salario, elemento.local, elemento.descricao)
         ))    
