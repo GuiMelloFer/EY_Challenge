@@ -26,7 +26,7 @@ export default function constroiCards(titulo, empresa, salario, local, descricao
     return vaga;
 }
 
-async function listaVagas() {
+async function listarVagas() {
     try {
         const listaAPI = await conectaAPI.listaVagas();
         listaAPI.forEach(elemento => lista.appendChild(
@@ -40,4 +40,32 @@ async function listaVagas() {
     
 }
 
-listaVagas();
+async function listarVagasPorArea(areaSelecionada) {
+    try {
+        const listaAPI = await conectaAPI.buscaVaga(areaSelecionada);
+        const lista = document.querySelector('[data-lista]');
+
+        // Limpe o conteúdo anterior
+        lista.innerHTML = "";
+
+        // Exiba as vagas filtradas
+        listaAPI.forEach(elemento => {
+            const vaga = constroiCards(elemento.titulo, elemento.empresa, elemento.salario, elemento.local, elemento.descricao);
+            lista.appendChild(vaga);
+        });
+    } catch (error) {
+        const lista = document.querySelector('[data-lista]');
+        lista.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a lista de vagas. Erro: ${error.message}</h2>`;
+    }
+}
+
+
+// Verifique o parâmetro "area" na URL
+const params = new URLSearchParams(window.location.search);
+const areaSelecionada = params.get("area");
+
+if (areaSelecionada) {
+    listarVagasPorArea(areaSelecionada);
+} else{
+    listarVagas();
+}

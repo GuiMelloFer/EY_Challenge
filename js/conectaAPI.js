@@ -27,6 +27,13 @@ async function criaVaga(titulo, descricao, url, imagem) {
 }
 
 async function buscaVaga(termoDeBusca) {
+    const conexao = await fetch(`http://localhost:3000/vagas?cargo_de_atuacao=${termoDeBusca}`)
+    const conexaoConvertida = await conexao.json();
+
+    return conexaoConvertida
+}
+
+async function searchVaga(termoDeBusca) {
     const conexao = await fetch(`http://localhost:3000/vagas?q=${termoDeBusca}`)
     const conexaoConvertida = await conexao.json();
 
@@ -36,5 +43,6 @@ async function buscaVaga(termoDeBusca) {
 export const conectaAPI = {
     listaVagas, 
     criaVaga,
-    buscaVaga
+    buscaVaga,
+    searchVaga
 }

@@ -476,10 +476,10 @@ footer {
     /* background-color: #2CB395; */
     display: flex;
     padding: 20px 100px;
-    justify-content: space-between;
 }
 
 .inputsSearch input {
+    margin: auto;
     width: 40%;
     height: 30px;
     border-radius: 7px;
